@@ -1,0 +1,27 @@
+.form {
+  border: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.form input {
+  width: 60%;
+}
+.short {
+  width: 30%;
+}
+.errMessage {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+@media all and (max-width: 600px) {
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .form input {
+    width: 90%;
+  }
+}
